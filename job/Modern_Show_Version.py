@@ -177,9 +177,9 @@ auth_token = os.environ["TWILIO_TOKEN"]
 client = Client(account_sid, auth_token)
 
 call = client.calls.create(
-                        url='https://www.automateyournetwork.ca/wp-content/uploads/2021/05/DevNet_Sandbox_CSR1000v_Heavy_Networking-2.mp3',
-                        to='+59162529367',
-                        from_='+18315083357'
+                        url='{{ MP3 File location }}',
+                        to='{{ number to call }}',
+                        from_='{{ number calling from }}'
                     )
 rprint(call.sid)
 
