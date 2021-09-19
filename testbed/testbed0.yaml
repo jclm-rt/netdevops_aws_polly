@@ -1,0 +1,22 @@
+testbed:
+  name: lab1
+  alias: lab1YamlTesbed
+  credentials:
+    default:
+      username: $USERNAME
+      password: $PASSWORD
+devices:
+    01-SW02-R1P2:
+      alias: 01-SW02-R1P2
+      os: iosxe
+      type: IOSvL2
+      platform: IOSvL2
+      connections:
+        defaults:
+          class: unicon.Unicon
+        ssh:
+          protocol: ssh
+          ip:  "{{ your IP here }}"
+      custom:
+        abstraction:
+          order: [os, type]

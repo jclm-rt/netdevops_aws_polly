@@ -103,6 +103,7 @@ celerybeat.pid
 
 # Environments
 .env
+.netdevops_aws_polly
 .venv
 env/
 venv/
