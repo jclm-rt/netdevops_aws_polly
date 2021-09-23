@@ -19,11 +19,7 @@ import boto3
 from boto3 import Session
 from rich import print
 from rich import print as rprint
-#from dotenv import load_dotenv
 
-#load_dotenv()
-#username = os.environ.get("USERNAME_NETADMIN")
-#password = os.environ.get("PASSWORD_NETADMIN")
 
 # ----------------
 # Jinja2
@@ -39,6 +35,7 @@ env = Environment(loader=FileSystemLoader(template_dir))
 #from pyats.topology import loader
 from pyats.log.utils import banner
 from genie.conf import Genie
+from pyats import aetest
 
 
 # Get logger for script

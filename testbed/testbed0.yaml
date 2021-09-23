@@ -7,7 +7,7 @@ testbed:
       password: $PASSWORD
 devices:
     01-SW02-R1P2:
-      alias: 01-SW02-R1P2
+      alias: {name_of_net_devices}
       os: iosxe
       type: IOSvL2
       platform: IOSvL2
