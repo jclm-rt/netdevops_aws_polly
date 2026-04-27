@@ -1,7 +1,7 @@
 '''
 To run the job:
 
-$ pyats run job Modern_Show_Version_job.py --testbed-file ../testbed/3850.yaml
+$ pyats run job Modern_Show_Version_job.py --testbed-file ../testbed/testbed0.yaml
 
 '''
 
