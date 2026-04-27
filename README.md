@@ -40,14 +40,6 @@ La arquitectura sigue un modelo de **Plano de Gestión Programable**:
 * Cuenta de Twilio con un número configurado.
 * Dispositivos de red con SSH habilitado.
 
-#### Ejecución
-```bash
-# Instalación de dependencias
-pip install -r requirements.txt
-
-# Ejecución del orquestador
-python main_polly_notifier.py --inventory inventory.yaml
-
 ---
 
 ### ⚖️ Créditos y Reconocimientos
@@ -57,3 +49,13 @@ La lógica de extracción y estructuración de datos está inspirada en su repos
 * 📂 **Repositorio Base:** [Modern_Show_Version](https://github.com/automateyournetwork/Modern_Show_Version.git) por [John Capobianco](https://github.com/automateyournetwork).
 
 Mi implementación añade una capa de **notificación por voz distribuida** utilizando servicios Cloud (AWS Polly + Twilio) para mejorar la respuesta ante incidentes en infraestructuras de misión crítica.
+
+#### Ejecución
+```bash
+# Instalación de dependencias
+pip install -r requirements.txt
+
+# Ejecución del orquestador
+pyats run job Modern_Show_Version_job.py --testbed-file ../testbed/testbed0.yaml
+
+
