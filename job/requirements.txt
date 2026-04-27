@@ -1,0 +1,13 @@
+# Network Automation Core
+netmiko>=4.0.0
+nornir>=3.3.0
+nornir-netmiko>=0.2.0
+nornir-utils>=0.2.0
+PyYAML>=6.0.0
+
+# Cloud & APIs
+boto3>=1.34.0
+twilio>=8.0.0
+
+# Utilities
+python-dotenv>=1.0.0
