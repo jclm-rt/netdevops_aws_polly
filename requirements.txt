@@ -13,3 +13,4 @@ twilio>=8.0.0
 
 # Utilities
 python-dotenv>=1.0.0
+jinja2
