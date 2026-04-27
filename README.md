@@ -47,3 +47,13 @@ pip install -r requirements.txt
 
 # Ejecución del orquestador
 python main_polly_notifier.py --inventory inventory.yaml
+
+---
+
+### ⚖️ Créditos y Reconocimientos
+Este proyecto es una evolución técnica y personal basada en el trabajo pionero de **John Capobianco**. 
+
+La lógica de extracción y estructuración de datos está inspirada en su repositorio original:
+* 📂 **Repositorio Base:** [Modern_Show_Version](https://github.com/automateyournetwork/Modern_Show_Version.git) por [John Capobianco](https://github.com/automateyournetwork).
+
+Mi implementación añade una capa de **notificación por voz distribuida** utilizando servicios Cloud (AWS Polly + Twilio) para mejorar la respuesta ante incidentes en infraestructuras de misión crítica.
